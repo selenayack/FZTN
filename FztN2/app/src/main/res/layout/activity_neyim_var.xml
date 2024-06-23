@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FAF7F7"
+
+    >
+
+
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorAccent"
+        app:title="FztN"
+        android:textAlignment="textEnd"
+        app:titleTextColor="@color/white"
+        android:gravity="end"
+        tools:ignore="InvalidId" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@id/uygulama_ismi"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewAgrıBolgesi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="24dp"
+                android:text="Ağrı Bölgesi"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinnerAgrıBolgesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:entries="@array/agrıBolgesi"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textViewSemptomlar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Ağrıya İlişkili Semptomlar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerSemptomlar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"
+                    android:entries="@array/semptomlar"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+
+
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewAgrıDerece"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="24dp"
+                android:text="Ağrı Şiddeti"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinnerAgrıDerece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:entries="@array/agrıDerece"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textViewAgrıŞekli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Ağrı Şekli"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerAgrıŞekli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"
+                    android:entries="@array/agrıSekli"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textViewAgrıSüresi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Ağrı Süresi"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerAgrıSüresi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="24dp"
+                    android:entries="@array/agrıSüresi"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_btn"
+                android:text="Kaydet"
+                android:textColor="@color/colorAccent" />
+        </TableLayout>
+
+
+    </ScrollView>
+</LinearLayout>

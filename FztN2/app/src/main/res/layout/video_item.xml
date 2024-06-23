@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/agriBolgesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Agri Bolgesi"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/agriVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Önerilen harekteler videosu için tıklayınız >>>"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textBilgi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Video Information" />
+
+
+</LinearLayout>

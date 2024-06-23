@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="semptomlar">
+        <item>uyuşma</item>
+        <item>karıncalanma</item>
+        <item>güçsüzlük</item>
+        <!-- Diğer semptomlar buraya eklenebilir -->
+    </string-array>
+</resources>

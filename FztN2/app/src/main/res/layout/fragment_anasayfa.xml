@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".AnasayfaFragment"
+    android:background="#FAF7F7"
+
+    >
+
+
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorAccent"
+        app:title="FztN"
+        android:textAlignment="textEnd"
+        app:titleTextColor="@color/white"
+        android:gravity="end"
+        tools:ignore="InvalidId" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/uygulama_ismi"
+            android:layout_width="164dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="FztN"
+            android:textColor="#03284E"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <!-- ImageView -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/uygulama_ismi"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/logo" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- FloatingActionButton -->
+
+                <!-- Container LinearLayout for stacked TextViews -->
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/KahvatıAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    app:backgroundTint="@color/colorAccent"
+                    app:fabSize="mini"
+                    app:srcCompat="@drawable/account_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="70dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewİsim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="70dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/neyimVarBtn"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="NEYİM VAR ?"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "38804346690",
+    "project_id": "fztn-1d88d",
+    "storage_bucket": "fztn-1d88d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38804346690:android:4d894c7005196909999adb",
+        "android_client_info": {
+          "package_name": "com.app.fztn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKgw6_gdyCaq-OWt51lbOcO44Kvqrwxc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

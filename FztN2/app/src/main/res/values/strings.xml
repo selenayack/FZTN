@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">FztN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="aylar">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+
+    </string-array>
+    <string name="ocak">Ocak</string>
+    <string name="şubat">Şubat</string>
+    <string name="mart">Mart</string>
+    <string name="nisan">Nisan</string>
+    <string name="mayıs">Mayıs</string>
+    <string name="haziran">Haziran</string>
+    <string name="temmuz">Temmuz</string>
+    <string name="ağustos">Ağustos</string>
+    <string name="eylül">Eylül</string>
+    <string name="ekim">Ekim</string>
+    <string name="kasım">Kasım</string>
+    <string name="aralık">Aralık</string>
+    <string name="blank"></string>
+
+    <string-array name="agrıBolgesi">
+    <item>Baş</item>
+    <item>Boyun</item>
+        <item>Kol</item>
+        <item>El</item>
+        <item>Sırt</item>
+        <item>Bel</item>
+        <item>Bacak</item>
+        <item>Diz</item>
+        <item>Kalça</item>
+        <item>Göğüs</item>
+        <item>Omuz</item>
+    </string-array>
+
+
+    <string-array name="agrıDerece">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array name="agrıSekli">
+        <item>İğneleyici</item>
+        <item>Yanıcı</item>
+        <item>Batıcı</item>
+
+    </string-array>
+
+    <string-array name="agrıSüresi">
+        <item>Akut</item>
+        <item>Kronik</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="ölcüBirimi">
+    <item>kg_cm</item>
+    <item>pound_inch</item>
+   </string-array>
+
+    <string name="gün">Gün</string>
+    <string name="ay">Ay</string>
+    <string name="yıl">Yıl</string>
+
+    <string name="boy">Boy</string>
+    <string name="aktivite_seviyesi">Aktivite Seviyesi</string>
+    <string name="kilo">Kilo</string>
+    <string name="hedef_kilo">Hedef Kilo</string>
+    <string name="ölçü_birimi">Ölçü Birimi</string>
+
+    <string name="kg_cm">Kg_cm</string>
+    <string name="pound_inch">Pound_inch</string>
+
+    <string name="cm">Cm</string>
+    <string name="feet_inch">feet and ınches</string>
+    <string name="kg">Kg</string>
+    <string name="pound">Pound</string>
+</resources>

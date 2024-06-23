@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewDate" type="id" />
+    <item name="textViewTime" type="id" />
+    <item name="buttonRandevuAl" type="id" />
+</resources>

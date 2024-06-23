@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/kullanici_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_btn"
+        android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:text="gmelisaguclu@gmail.com"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6E6E6E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <EditText
+        android:id="@+id/kullanici_parola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_btn"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:text="12345."
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6E6E6E"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_mail"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/kayit_button"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:text="kayıt ol"
+        android:textSize="18dp"
+        android:textColor="#EFF2F4"
+        android:background="@drawable/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_parola"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <Button
+        android:id="@+id/giris_btn"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:text="giriş yap"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        app:layout_constraintBottom_toTopOf="@+id/kayit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_parola"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:id="@+id/sifremi_unuttum"
+        android:layout_width="132dp"
+        android:layout_height="32dp"
+        android:text="şifremi unuttum"
+        android:textColor="#03284E"
+        android:textColorHighlight="#FEFEFE"
+        android:textColorHint="#FBF6F6"
+        android:textColorLink="#FEFEFE"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/giris_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_parola"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/uygulama_ismi"
+        android:layout_width="164dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="30dp"
+        android:text="FztN"
+        android:textColor="#03284E"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/kullanici_mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="123dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/kullanici_mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama_ismi"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+

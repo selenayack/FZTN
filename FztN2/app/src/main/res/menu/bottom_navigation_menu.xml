@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Anasayfa_bottom"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Anasayfa"/>
+
+    <item
+        android:id="@+id/Programlarım_bottom"
+        android:icon="@drawable/baseline_sports_gymnastics_24"
+        android:title="Programlarım"
+        />
+    <item
+        android:id="@+id/Randevularım_bottom"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="Randevularım"
+        />
+
+    <item
+        android:id="@+id/hesabım_bottom"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Hesabım"
+        />
+</menu>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FztN" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FztN" parent="Base.Theme.FztN" />
+
+    <!-- res/values/styles.xml -->
+
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="android:background">@color/colorAccent</item> <!-- Arka plan rengi (beyaz) -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Yazı rengi (lacivert) -->
+        <item name="colorAccent">@color/colorAccent</item> <!-- Seçili gün rengi -->
+
+        <item name="android:datePickerMode">calendar</item> <!-- Takvim modu -->
+        <item name="android:headerBackground">@color/colorAccent</item> <!-- Üst kısım arkaplan rengi (lacivert) -->
+
+    </style>
+
+</resources>
